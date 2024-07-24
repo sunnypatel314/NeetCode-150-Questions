@@ -6,6 +6,6 @@ class Solution:
     
 solution = Solution()
 
-solution.hasDuplicate([1, 2, 3, 3]) # True
-solution.hasDuplicate([1, 2, 3, 4]) # False
+print(solution.hasDuplicate([1, 2, 3, 3])) # True
+print(solution.hasDuplicate([1, 2, 3, 4])) # False
     
