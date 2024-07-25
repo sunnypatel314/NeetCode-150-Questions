@@ -18,6 +18,5 @@ class Solution:
         return True
 
 solution = Solution()
-
 print(solution.isPalindrome(s = "Was it a car or a cat I saw?")) # True
 print(solution.isPalindrome(s = "tab a cat")) # False
