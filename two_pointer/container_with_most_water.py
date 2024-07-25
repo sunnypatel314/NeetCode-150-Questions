@@ -17,6 +17,5 @@ class Solution:
         return max_water
 
 solution = Solution()
-
 print(solution.maxArea(heights = [1,7,2,5,4,7,3,6])) # 36
 print(solution.maxArea(heights = [2,2,2])) # 4
