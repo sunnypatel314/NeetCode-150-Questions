@@ -10,7 +10,6 @@ class Solution:
 
         for i in counter_nums.keys():
             freq[counter_nums[i]].append(i)
-        
         for i in freq[::-1]:
             if k == 0:
                 continue
