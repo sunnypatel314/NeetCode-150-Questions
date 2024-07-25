@@ -14,5 +14,4 @@ class Solution:
                 return [l + 1, r + 1]
             
 solution = Solution()
-
 print(solution.twoSum(numbers = [1,2,3,4], target = 3)) # [1, 2]
