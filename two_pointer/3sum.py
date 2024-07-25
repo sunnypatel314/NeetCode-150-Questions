@@ -22,7 +22,6 @@ class Solution:
         return res
 
 solution = Solution()
-
 print(solution.threeSum(nums = [-1,0,1,2,-1,-4])) # [[-1,-1,2],[-1,0,1]]
 print(solution.threeSum(nums = [0,1,1])) # []
 print(solution.threeSum(nums = [0,0,0])) # [[0,0,0]]
