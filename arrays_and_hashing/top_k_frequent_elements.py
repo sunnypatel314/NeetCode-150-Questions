@@ -3,7 +3,6 @@ from typing import List
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        
         res = []
         freq = [[] for i in range(len(nums) + 1)]
         counter_nums = Counter(nums)
